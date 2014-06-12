@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Quests Version="1.0.2">
+<Quests Version="1.0.3">
   <Quest>
     <ID>A1</ID>
     <JP-Name>はじめての「編成」！</JP-Name>
@@ -488,7 +488,7 @@
 		<JP-Name>敵北方艦隊主力を撃滅せよ！</JP-Name>
 		<TR-Name>Wöchentlicher Einsatz 7</TR-Name>
 		<JP-Detail>北方海域の深部に出撃し、敵北方艦隊の主力艦隊を捕捉、これを撃滅せよ！</JP-Detail>
-		<TR-Detail>Besiege 5 Bosse in Welt 3-3 und 3-4 (TL Note: insgesamt, nicht jeweils).</TR-Detail>
+		<TR-Detail>Besiege 5 Bosse in Welt 3-3 oder 3-4.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>Bw8</ID>
@@ -535,35 +535,35 @@
 	<Quest>
 		<ID>D1</ID>
 		<JP-Name>はじめての「遠征」！</JP-Name>
-		<TR-Name>First Expedition</TR-Name>
+		<TR-Name>Erste Expedition</TR-Name>
 		<JP-Detail>艦隊を「遠征」に出発させよう！</JP-Detail>
-		<TR-Detail>Perform an expedition.</TR-Detail>
+		<TR-Detail>Führe eine Expedition durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D2</ID>
 		<JP-Name>「遠征」を３回成功させよう！</JP-Name>
 		<TR-Name>Tägliche Expeditionen 1</TR-Name>
 		<JP-Detail>本日中に「遠征」３回成功させよう！</JP-Detail>
-		<TR-Detail>Perform 3 successful expeditions within the same day.</TR-Detail>
+		<TR-Detail>Führe 3 Erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D3</ID>
 		<JP-Name>「遠征」を１０回成功させよう！</JP-Name>
 		<TR-Name>Tägliche Expeditionen 2</TR-Name>
 		<JP-Detail>本日中に「遠征」10回成功させよう！</JP-Detail>
-		<TR-Detail>Perform 10 successful expeditions within the same day.</TR-Detail>
+		<TR-Detail>Führe 10 Erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D4</ID>
 		<JP-Name>大規模遠征作戦、発令！</JP-Name>
 		<TR-Name>Wöchentliche Expeditionen</TR-Name>
 		<JP-Detail>今週中に「遠征」30回成功させよう！</JP-Detail>
-		<TR-Detail>Perform 30 successful expeditions within the same week.</TR-Detail>
+		<TR-Detail>Führe 30 Erfolgreiche Expeditionen in der selben Woche durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D5</ID>
 		<JP-Name>第一次潜水艦派遣作戦</JP-Name>
-		<TR-Name>The First Submarine Operation</TR-Name>
+		<TR-Name>Die erste U-Boot Operation</TR-Name>
 		<JP-Detail>はじめての潜水艦派遣作戦を成功させよう！</JP-Detail>
 		<TR-Detail>Complete Expedition 30.</TR-Detail>
 	</Quest>
