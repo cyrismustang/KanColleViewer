@@ -699,4 +699,37 @@ Niedrig: Performance über Qualität. Sieht einfach beschissen aus.</value>
     <value>Funktioniert nun mit DMM.com. OSAPI, und API Links !
 [Du musst das Spiel neuladen, damit das funktioniert.]</value>
   </data>
+  <data name="Rank_Admiral" xml:space="preserve">
+    <value>Admiral</value>
+  </data>
+  <data name="Rank_Captain" xml:space="preserve">
+    <value>Kapitän zur See</value>
+  </data>
+  <data name="Rank_Commander" xml:space="preserve">
+    <value>Fregattenkapitän</value>
+  </data>
+  <data name="Rank_Lieutenant" xml:space="preserve">
+    <value>Kapitänleutnant</value>
+  </data>
+  <data name="Rank_Lieutenant_Commander" xml:space="preserve">
+    <value>Korvettenkapitän</value>
+  </data>
+  <data name="Rank_Marshal_Admiral" xml:space="preserve">
+    <value>Großadmiral</value>
+  </data>
+  <data name="Rank_Novice_Commander" xml:space="preserve">
+    <value>Korvettenkapitänskadett</value>
+  </data>
+  <data name="Rank_Novice_Lieutenant" xml:space="preserve">
+    <value>Kapitänleutnantkadett</value>
+  </data>
+  <data name="Rank_Rear_Admiral" xml:space="preserve">
+    <value>Konteradmiral</value>
+  </data>
+  <data name="Rank_Vice_Admiral" xml:space="preserve">
+    <value>Vizeadmiral</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
 </root>
