@@ -388,4 +388,12 @@
     <JP-Name>九九式艦爆(熟練)</JP-Name>
     <TR-Name>Type 99 Dive Bomber (Skilled)</TR-Name>
   </Item>
+  <Item>
+    <JP-Name>照明弾</JP-Name>
+    <TR-Name>Star Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九八式水上偵察機(夜偵)</JP-Name>
+    <TR-Name>Type 98 Recon Seaplane (Night Scout)</TR-Name>
+  </Item>
 </Equipment>
