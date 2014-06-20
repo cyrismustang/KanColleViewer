@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ships Version="1.0.8">
+<Ships Version="1.0.9">
   <Ship>
     <JP-Name>長門</JP-Name>
     <TR-Name>나가토</TR-Name>
@@ -1215,5 +1215,13 @@
    <Ship>
     <JP-Name>龍驤改二</JP-Name>
     <TR-Name>류죠改2</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>川内改二</JP-Name>
+    <TR-Name>센다이改2</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>綾波改二</JP-Name>
+    <TR-Name>아야나미改2</TR-Name>
   </Ship>
 </Ships>

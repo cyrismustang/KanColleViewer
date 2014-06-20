@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Equipment Version="1.0.4">
+<Equipment Version="1.0.5">
   <Item>
     <JP-Name>12cm単装砲</JP-Name>
     <TR-Name>12cm Single Cannon</TR-Name>
@@ -383,5 +383,13 @@
   <Item>
     <JP-Name>潜水艦53cm艦首魚雷(8門)</JP-Name>
     <TR-Name>53cm Submarine Bow Torpedo Mount (8 tubes)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>照明弾</JP-Name>
+    <TR-Name>Star Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九八式水上偵察機(夜偵)</JP-Name>
+    <TR-Name>Type 98 Recon Seaplane (Night Scout)</TR-Name>
   </Item>
 </Equipment>
