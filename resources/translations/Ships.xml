@@ -1212,4 +1212,12 @@
     <JP-Name>龍鳳改</JP-Name>
     <TR-Name>Ryuuhou Kai</TR-Name>
   </Ship>
+  <Ship>
+    <JP-Name>川内改二</JP-Name>
+    <TR-Name>Sendai Kai2</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>綾波改二</JP-Name>
+    <TR-Name>Ayanami Kai2</TR-Name>
+  </Ship>
 </Ships>
