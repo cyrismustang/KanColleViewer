@@ -544,56 +544,56 @@
 		<JP-Name>「遠征」を３回成功させよう！</JP-Name>
 		<TR-Name>Tägliche Expeditionen 1</TR-Name>
 		<JP-Detail>本日中に「遠征」３回成功させよう！</JP-Detail>
-		<TR-Detail>Führe 3 Erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
+		<TR-Detail>Führe 3 erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D3</ID>
 		<JP-Name>「遠征」を１０回成功させよう！</JP-Name>
 		<TR-Name>Tägliche Expeditionen 2</TR-Name>
 		<JP-Detail>本日中に「遠征」10回成功させよう！</JP-Detail>
-		<TR-Detail>Führe 10 Erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
+		<TR-Detail>Führe 10 erfolgreiche Expeditionen am selben Tag durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D4</ID>
 		<JP-Name>大規模遠征作戦、発令！</JP-Name>
 		<TR-Name>Wöchentliche Expeditionen</TR-Name>
 		<JP-Detail>今週中に「遠征」30回成功させよう！</JP-Detail>
-		<TR-Detail>Führe 30 Erfolgreiche Expeditionen in der selben Woche durch.</TR-Detail>
+		<TR-Detail>Führe 30 erfolgreiche Expeditionen in der selben Woche durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D5</ID>
 		<JP-Name>第一次潜水艦派遣作戦</JP-Name>
 		<TR-Name>Die erste U-Boot Operation</TR-Name>
 		<JP-Detail>はじめての潜水艦派遣作戦を成功させよう！</JP-Detail>
-		<TR-Detail>Complete Expedition 30.</TR-Detail>
+		<TR-Detail>Schließe Expedition 30 erfolgreich ab.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D6</ID>
 		<JP-Name>第二次潜水艦派遣作戦</JP-Name>
-		<TR-Name>The Second Submarine Operation</TR-Name>
+		<TR-Name>Die zweite U-Boot Operation</TR-Name>
 		<JP-Detail>第２次潜水艦派遣作戦を成功させよう！</JP-Detail>
-		<TR-Detail>Complete Expedition 30 one more time.</TR-Detail>
+		<TR-Detail>Schließe Expedition 30 ein weiteres mal erfolgreich ab.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>D7</ID>
 		<JP-Name>潜水艦派遣作戦による技術入手の継続！</JP-Name>
-		<TR-Name>Continuation of Submarine Operations</TR-Name>
+		<TR-Name>Forsetzung der U-Boot Operationen</TR-Name>
 		<JP-Detail>第3次及び第4次潜水艦派遣作戦を成功させ、他国製技術の導入に努めよ！</JP-Detail>
-		<TR-Detail>Complete Expedition 30 two more times.</TR-Detail>
+		<TR-Detail>Schließe Expedition 30 zwei weitere male ab.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>E1</ID>
 		<JP-Name>はじめての「補給」！</JP-Name>
-		<TR-Name>First Supply</TR-Name>
+		<TR-Name>Erste Versorgung</TR-Name>
 		<JP-Detail>補給は大事です！燃料・弾薬を艦に「補給」しよう！</JP-Detail>
-		<TR-Detail>Resupply a ship.</TR-Detail>
+		<TR-Detail>Versorge ein Schiff.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>E2</ID>
 		<JP-Name>はじめての「入渠」！</JP-Name>
-		<TR-Name>First Docking</TR-Name>
+		<TR-Name>Erstes Andocken</TR-Name>
 		<JP-Detail>戦闘で傷ついた艦を「入渠」させて修理して、次の出撃に備えよう！</JP-Detail>
-		<TR-Detail>Repair a ship.</TR-Detail>
+		<TR-Detail>Repariere ein Schiff.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>E3</ID>
@@ -612,114 +612,114 @@
 	<Quest>
 		<ID>F1</ID>
 		<JP-Name>はじめての「建造」！</JP-Name>
-		<TR-Name>First Construction</TR-Name>
+		<TR-Name>Erste Schiffskonstruktion</TR-Name>
 		<JP-Detail>「工廠」で鋼材などの資材を使って新しい艦を「建造」しよう！</JP-Detail>
-		<TR-Detail>Craft a ship.</TR-Detail>
+		<TR-Detail>Baue ein Schiff.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F2</ID>
 		<JP-Name>はじめての「開発」！</JP-Name>
-		<TR-Name>First Development</TR-Name>
+		<TR-Name>Erste Ausrüstungsentwicklung</TR-Name>
 		<JP-Detail>「工廠」でボーキサイトなどの資材を使って新しい装備アイテムを「開発」しよう！</JP-Detail>
-		<TR-Detail>Craft a piece of equipment.</TR-Detail>
+		<TR-Detail>Baue ein neues Ausrüstungsteil.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F3</ID>
 		<JP-Name>はじめての「解体」！</JP-Name>
-		<TR-Name>First Dismantlement</TR-Name>
+		<TR-Name>Erste Demonatege</TR-Name>
 		<JP-Detail>「工廠」で不要な艦を「解体」してみよう！</JP-Detail>
-		<TR-Detail>Dismantle a ship.</TR-Detail>
+		<TR-Detail>Demontiere ein Schiff.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F4</ID>
 		<JP-Name>はじめての「廃棄」！</JP-Name>
-		<TR-Name>First Disposal</TR-Name>
+		<TR-Name>Erste Beseitigung</TR-Name>
 		<JP-Detail>「工廠」で不要な装備アイテムを「廃棄」してみよう！</JP-Detail>
-		<TR-Detail>Scrap a piece of equipment.</TR-Detail>
+		<TR-Detail>Recycle ein Ausrüstungsteil.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F5</ID>
 		<JP-Name>新装備「開発」指令</JP-Name>
-		<TR-Name>Daily Equipment Development 1</TR-Name>
+		<TR-Name>Tägliche Ausrüstungsentwicklung 1</TR-Name>
 		<JP-Detail>「工廠」で装備アイテムを新たに「開発」しよう(失敗もOK)！</JP-Detail>
-		<TR-Detail>Craft a piece of equipment. (Failures are OK)</TR-Detail>
+		<TR-Detail>Baue ein Ausrüstungsteil. (Misserfolge sind OK)</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F6</ID>
 		<JP-Name>新造艦「建造」指令</JP-Name>
-		<TR-Name>Daily Ship Construction 1</TR-Name>
+		<TR-Name>Tägliche Schiffskonstruktion</TR-Name>
 		<JP-Detail>「工廠」で艦娘を本日中に新たに「建造」しよう！</JP-Detail>
-		<TR-Detail>Craft a ship.</TR-Detail>
+		<TR-Detail>Baue ein Schiff.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F7</ID>
 		<JP-Name>装備「開発」集中強化！</JP-Name>
-		<TR-Name>Daily Development 2</TR-Name>
+		<TR-Name>Tägliche Ausrüstungsentwicklung 2</TR-Name>
 		<JP-Detail>「工廠」で装備アイテムを本日中に3回「開発」しよう(失敗もOK)！</JP-Detail>
-		<TR-Detail>Craft 3 pieces of equipment. (Failures are OK)</TR-Detail>
+		<TR-Detail>Baue 3 Ausrüstungsteile. (Misserfolge sind OK)</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F8</ID>
 		<JP-Name>艦娘「建造」艦隊強化！</JP-Name>
-		<TR-Name>Daily Construction 2</TR-Name>
+		<TR-Name>Tägliche Schiffskonstruktion 2</TR-Name>
 		<JP-Detail>艦隊強化のため、「工廠」で艦娘を本日中に3隻「建造」しよう！</JP-Detail>
-		<TR-Detail>Craft 3 ships.</TR-Detail>
+		<TR-Detail>Baue 3 Schiffe.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F9</ID>
 		<JP-Name>軍縮条約対応！</JP-Name>
-		<TR-Name>Daily Dismantlement</TR-Name>
+		<TR-Name>Tägliche Demontage</TR-Name>
 		<JP-Detail>少し艦隊規模が大きくなりすぎました！「工廠」で不要な艦を2隻「解体」してください！</JP-Detail>
-		<TR-Detail>Scrap 2 ships.</TR-Detail>
+		<TR-Detail>Demontiere 2 Schiffe.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F10</ID>
 		<JP-Name>「大型艦建造」の準備！(その弐)</JP-Name>
-		<TR-Name>Preparation for LCS (Part 2)</TR-Name>
+		<TR-Name>Vorbereitungen für LCS (Teil 2)</TR-Name>
 		<JP-Detail>大型艦建造の準備をします！「工廠」で装備アイテムを4回「廃棄」してみてください！</JP-Detail>
-		<TR-Detail>Scrap equipment 4 times.</TR-Detail>
+		<TR-Detail>Recycle 4 Ausrüstungsteile.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F11</ID>
 		<JP-Name>輸送用ドラム缶の準備</JP-Name>
-		<TR-Name>Preparation for Transport Drum Canisters</TR-Name>
+		<TR-Name>Vorbereitungen für Transportfässer</TR-Name>
 		<JP-Detail>「工廠」で装備アイテムを3回「廃棄」して、輸送用ドラム缶を準備します。</JP-Detail>
-		<TR-Detail>Scrap equipment 3 times.</TR-Detail>
+		<TR-Detail>Recycle 3 Ausrüstungsteile.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>F12</ID>
 		<JP-Name>資源の再利用</JP-Name>
-		<TR-Name>Weekly Dismantlement</TR-Name>
+		<TR-Name>Wöchentliche Beseitigung</TR-Name>
 		<JP-Detail>「工廠」で余剰の装備アイテムをなるべく多く「廃棄」して、鋼材の再利用に努めよう！</JP-Detail>
-		<TR-Detail>Scrap equipment 24 times.</TR-Detail>
+		<TR-Detail>Recycle 24 Ausrüstungsteile.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>G1</ID>
 		<JP-Name>はじめての「近代化改修」！</JP-Name>
-		<TR-Name>First Modernization</TR-Name>
+		<TR-Name>Erste Modernisierung</TR-Name>
 		<JP-Detail>任意の艦を近代化改修(合成)して、強化せよ！</JP-Detail>
-		<TR-Detail>Perform a successful modernization.</TR-Detail>
+		<TR-Detail>Führe eine erfolgreiche Moderniesierung durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>G2</ID>
 		<JP-Name>艦の「近代化改修」を実施せよ！</JP-Name>
-		<TR-Name>Daily Modernization</TR-Name>
+		<TR-Name>Tägliche Moderniesierung</TR-Name>
 		<JP-Detail>近代化改修を実施して、２回以上これを成功させよ！</JP-Detail>
-		<TR-Detail>Perform 2 successful modernizations within the same day.</TR-Detail>
+		<TR-Detail>Führe 2 erfolgreiche Moderniesierungen am selben Tag durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>G3</ID>
 		<JP-Name>「近代化改修」を進め、戦備を整えよ！</JP-Name>
-		<TR-Name>Weekly Modernization</TR-Name>
+		<TR-Name>Wöchentliche Moderniesierung</TR-Name>
 		<JP-Detail>一週間の間に、近代化改修を１5回成功させよ！</JP-Detail>
-		<TR-Detail>Perform 15 successful modernizations within the same week.</TR-Detail>
+		<TR-Detail>Führe 15 erfolgreiche Moderniesierungen in der selben Woche durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>G4</ID>
 		<JP-Name>「大型艦建造」の準備！(その壱)</JP-Name>
-		<TR-Name>Preparation for LSC (Part 1)</TR-Name>
+		<TR-Name>Vorbereitungen für LSC (Teil 1)</TR-Name>
 		<JP-Detail>大型艦/新型艦建造のための準備を行う。任意の艦で近代化改修を4回成功させよ！</JP-Detail>
-		<TR-Detail>Perform 4 successful modernizations.</TR-Detail>
+		<TR-Detail>Führe 4 erfolgreiche Moderniesierungen durch.</TR-Detail>
 	</Quest>
 	<Quest>
 		<ID>WF01</ID>

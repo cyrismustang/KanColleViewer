@@ -244,16 +244,16 @@
     <value>Es sind derzeit Schiffe in der Reparatur...</value>
   </data>
   <data name="MessageBar_ReSortie_BadCondition" xml:space="preserve">
-    <value>erschöpft sind</value>
+    <value>sind erschöpft</value>
   </data>
   <data name="MessageBar_ReSortie_CanNotReSortie" xml:space="preserve">
-    <value>Einige Schiffe in deiner Flotte, die {0}.</value>
+    <value>Einige Schiffe in deiner Flotte, {0}.</value>
   </data>
   <data name="MessageBar_ReSortie_CanReSortie" xml:space="preserve">
     <value>Bereit zum Einsatz!</value>
   </data>
   <data name="MessageBar_ReSortie_LackForResources" xml:space="preserve">
-    <value>Versorgung brauchen.</value>
+    <value>benötigen Versörgung</value>
   </data>
   <data name="MessageBar_ReSortie_Remaining" xml:space="preserve">
     <value>Wartezeit: </value>
@@ -262,7 +262,7 @@
     <value>, </value>
   </data>
   <data name="MessageBar_ReSortie_Wounded" xml:space="preserve">
-    <value>schwer beschädigt sind</value>
+    <value>sind schwer beschädigt</value>
   </data>
   <data name="Quests" xml:space="preserve">
     <value>Quests</value>
