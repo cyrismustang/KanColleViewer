@@ -42,9 +42,9 @@ namespace Grabacr07.KanColleWrapper
 		
 		private void CreateItem(kcsapi_createitem item, NameValueCollection req)
 		{
-			Log(LogType.BuildItem, "{0},{1},{2},{3},{4},{5}",
+			Log(LogType.BuildItem, "{0},{1},{2},{3},{4},{5},{6}",
 				item.api_create_flag == 1 ? KanColleClient.Current.Master.SlotItems[item.api_slot_item.api_slotitem_id].Name : "Penguin",
-				//KanColleClient.Current.Homeport.Organization.Fleets[1].Ships[0].Info.ShipType.Name,
+				KanColleClient.Current.Homeport.Organization.Fleets[1].Ships[0].Info.ShipType.Name,
 				req["api_item1"], req["api_item2"], req["api_item3"], req["api_item4"], DateTime.Now.ToString("M/d/yyyy H:mm"));
 		}
 
