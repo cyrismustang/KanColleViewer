@@ -7,7 +7,7 @@
 	</Item>
 	<Item>
 		<Name>Equipment</Name>
-		<Version>1.0.5</Version>
+		<Version>1.0.6</Version>
 		<URL>https://raw.github.com/Yuubari/KanColleViewer/master/resources/translations/Equipment.xml</URL>
 	</Item>
 	<Item>
@@ -22,7 +22,7 @@
 	</Item>
 	<Item>
 		<Name>Ships</Name>
-		<Version>1.0.10</Version>
+		<Version>1.0.11</Version>
 		<URL>https://raw.github.com/Yuubari/KanColleViewer/master/resources/translations/Ships.xml</URL>
 	</Item>
 	<Item>
