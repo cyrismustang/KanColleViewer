@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Quests Version="1.0.3">
+<Quests Version="1.0.4">
   <Quest>
     <ID>A1</ID>
     <JP-Name>はじめての「編成」！</JP-Name>
@@ -30,16 +30,16 @@
   </Quest>
   <Quest>
     <ID>A5</ID>
-    <JP-Name>軽巡2隻を擁する隊を編成せよ！</JP-Name>
+    <JP-Name>軽巡２隻を擁する隊を編成せよ！</JP-Name>
     <TR-Name>Form a Squadron with Two CL!</TR-Name>
-    <JP-Detail>軽巡洋艦2隻を擁する高速艦隊を編成せよ！</JP-Detail>
+    <JP-Detail>軽巡洋艦２隻を擁する高速艦隊を編成せよ！</JP-Detail>
     <TR-Detail>Have 2 CL in your main fleet.</TR-Detail>
   </Quest>
   <Quest>
     <ID>A6</ID>
-    <JP-Name>第2艦隊を編成せよ！</JP-Name>
+    <JP-Name>第２艦隊を編成せよ！</JP-Name>
     <TR-Name>Form the Second Fleet!</TR-Name>
-    <JP-Detail>二つ目の艦隊、第2艦隊の旗艦を指定して、第2艦隊を編成せよ！</JP-Detail>
+    <JP-Detail>二つ目の艦隊、第２艦隊の旗艦を指定して、第２艦隊を編成せよ！</JP-Detail>
     <TR-Detail>Have a flagship in your second fleet.</TR-Detail>
   </Quest>
   <Quest>
@@ -205,7 +205,7 @@
   </Quest>
   <Quest>
     <ID>A30</ID>
-    <JP-Name>「第1水雷戦隊」を編成せよ！</JP-Name>
+    <JP-Name>「第一水雷戦隊」を編成せよ！</JP-Name>
     <TR-Name>Form the Torpedo Squadron 1!</TR-Name>
     <JP-Detail>「阿武隈」「曙」「潮」「霞」「不知火」を中核とした「第1水雷戦隊」を編成せよ！</JP-Detail>
     <TR-Detail>Have Abukuma (阿武隈), Akebono (曙), Ushio (潮), Kasumi (霞) and Shiranui (不知火) in your fleet.</TR-Detail>
@@ -247,9 +247,9 @@
   </Quest>
   <Quest>
     <ID>B3</ID>
-    <JP-Name>第2艦隊、出撃せよ！</JP-Name>
+    <JP-Name>第２艦隊、出撃せよ！</JP-Name>
     <TR-Name>Second Fleet Sortie!</TR-Name>
-    <JP-Detail>新たに編成した「第2艦隊」を出撃せよ！</JP-Detail>
+    <JP-Detail>新たに編成した「第２艦隊」を出撃せよ！</JP-Detail>
     <TR-Detail>Deploy your 2nd Fleet on a combat mission.</TR-Detail>
   </Quest>
   <Quest>
@@ -761,7 +761,7 @@
     <JP-Name>二人でする初めての任務！</JP-Name>
     <TR-Name>Your First Mission Together!</TR-Name>
     <JP-Detail>強い絆を結んだ艦娘を旗艦とした第一艦隊でリランカ島へ出撃、敵中枢を撃滅せよ！</JP-Detail>
-    <TR-Detail>Deploy a fleet to 4-3 with a bonded ship of Lv.100 or more as flagship and score an S vectory or higher against the boss.</TR-Detail>
+    <TR-Detail>Deploy a fleet to 4-3 with a bonded ship of Lv.100 or more as flagship and score an S victory or higher against the boss.</TR-Detail>
   </Quest>
   <Quest>
     <ID>612</ID>
@@ -841,6 +841,13 @@
     <TR-Detail>Have a submarine tender and 4 (or more) submarines in your fleet.</TR-Detail>
   </Quest>
   <Quest>
+    <ID>140</ID>
+    <JP-Name>新型電探を配備せよ！</JP-Name>
+    <TR-Name>Test the new RADAR!</TR-Name>
+    <JP-Detail>新型電探運用試験のため、第一艦隊の旗艦に「妙高改二」を配備せよ！</JP-Detail>
+    <TR-Detail>Have Myoukou Kai2 as the flagship of your fleet.</TR-Detail>
+  </Quest>
+  <Quest>
     <ID>248</ID>
     <JP-Name>「第三十駆逐隊」対潜哨戒！</JP-Name>
     <TR-Name>13th Destroyer Fleet's Anti-Submarine Patrol</TR-Name>
@@ -857,9 +864,16 @@
   <Quest>
     <ID>250</ID>
     <JP-Name>新編「第二航空戦隊」出撃せよ！</JP-Name>
-    <TR-Name>Deploy the new 2nd Carrier Division</TR-Name>
+    <TR-Name>Deploy the 2nd Carrier Division</TR-Name>
     <JP-Detail>新編「二航戦」を基幹とした艦隊で、珊瑚諸島沖に出撃、敵機動部隊を撃滅せよ！</JP-Detail>
     <TR-Detail>Deploy Hiryuu Kai Ni (飛龍改二) as the flagship, Souryuu (蒼龍) and two destroyers to World 5-2. You may add 2 other ships. Score an S rank victory against the boss.</TR-Detail>
+  </Quest>
+  <Quest>
+    <ID>251</ID>
+    <JP-Name>精鋭「第二航空戦隊」抜錨せよ！</JP-Name>
+    <TR-Name>Deploy the Elite 2nd Carrier Division</TR-Name>
+    <JP-Detail>錬成を終え再編成「二航戦」を基幹とした艦隊で、敵リランカ島を空襲、破砕せよ！</JP-Detail>
+    <TR-Detail>Deploy Souryuu Kai Ni (蒼龍改二) as the flagship, Hiryuu Kai Ni (飛龍改二) and two destroyers to World 4-3. You may add 2 other ships. Score an S rank victory against the boss.</TR-Detail>
   </Quest>
   <Quest>
     <ID>414</ID>
@@ -873,13 +887,13 @@
     <JP-Name>遠洋潜水艦作戦の成果を拡大せよ！</JP-Name>
     <TR-Name>Blue Waters Extended Submarine Operation</TR-Name>
     <JP-Detail>「遠洋潜水艦作戦」を継続実施し、潜水艦隊の練度向上と敵艦隊漸減に努めよ！</JP-Detail>
-    <TR-Detail>Complete expedition 39 three more times.</TR-Detail>
+    <TR-Detail>Complete expedition 39 two more times.</TR-Detail>
   </Quest>
   <Quest>
     <ID>614</ID>
     <JP-Name>機種転換</JP-Name>
     <TR-Name>Model Conversion</TR-Name>
     <JP-Detail>「九七式艦攻(友永隊)」搭載空母を秘書艦にした状態で新たに「天山」を2つ廃棄！</JP-Detail>
-    <TR-Detail>With an aircraft carrier equipped with Type 97 Torpedo Bomber (Tomonaga Squadron) as your secretary, scrap 2 Tenzans (simultaneously) to obtain a Tenzan Model 12 (Tomonaga Squadron).</TR-Detail>
+    <TR-Detail>With an aircraft carrier equipped with Type 97 Torpedo Bomber (Tomonaga Squadron) [Type 99 Dive Bomber (Ekusa Squadron)] as your secretary, scrap 2 Tenzans [Suiseis] (simultaneously) to obtain a Tenzan Model 12 (Tomonaga Squadron) [Suisei (Ekusa Squadron)].</TR-Detail>
   </Quest>
 </Quests>
