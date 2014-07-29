@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Equipment Version="1.0.6">
+<Equipment Version="1.0.7">
   <Item>
     <JP-Name>12cm単装砲</JP-Name>
     <TR-Name>12cm Single Cannon</TR-Name>
@@ -407,5 +407,9 @@
   <Item>
     <JP-Name>試製35.6cm三連装砲</JP-Name>
     <TR-Name>Prototype 35.6cm Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>35.6cm連装砲(ダズル迷彩)</JP-Name>
+    <TR-Name>35.6cm Twin Gun Mount (Dazzle camo)</TR-Name>
   </Item>
 </Equipment>
