@@ -128,14 +128,6 @@ namespace Grabacr07.KanColleWrapper
 		}
 
 		/// <summary>
-		/// エンド ポイント "/kcsapi/api_req_sortie/battleresult" からのセッションを配信します。
-		/// </summary>
-		public IObservable<Session> api_req_sortie_battleresult
-		{
-			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_sortie/battleresult"); }
-		}
-
-		/// <summary>
 		/// エンド ポイント "/kcsapi/api_req_hensei/change" からのセッションを配信します。
 		/// </summary>
 		public IObservable<Session> api_req_hensei_change
@@ -223,7 +215,38 @@ namespace Grabacr07.KanColleWrapper
 			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_kaisou/powerup"); }
 		}
 
+		/// <summary>
+		/// エンド ポイント "/kcsapi/api_req_member/updatedeckname" からのセッションを配信します。
+		/// </summary>
+		public IObservable<Session> api_req_member_updatedeckname
+		{
+			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_member/updatedeckname"); }
+		}
+
+		/// <summary>
+		/// エンド ポイント "/kcsapi/api_req_member/updatecomment" からのセッションを配信します。
+		/// </summary>
+		public IObservable<Session> api_req_member_updatecomment
+		{
+			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_member/updatecomment"); }
+		}
+
+		/// <summary>
+		/// エンド ポイント "/kcsapi/api_req_sortie/battle" からのセッションを配信します。
+		/// </summary>
+		public IObservable<Session> api_req_sortie_battle
+		{
+			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_sortie/battle"); }
+		}
+
+		/// <summary>
+		/// エンド ポイント "/kcsapi/api_req_sortie/battleresult" からのセッションを配信します。
+		/// </summary>
+		public IObservable<Session> api_req_sortie_battleresult
+		{
+			get { return this.ApiSessionSource.Where(x => x.PathAndQuery == "/kcsapi/api_req_sortie/battleresult"); }
+		}
+
 		// ReSharper restore InconsistentNaming
 	}
 }
-

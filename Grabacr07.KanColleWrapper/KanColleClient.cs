@@ -102,7 +102,7 @@ namespace Grabacr07.KanColleWrapper
 				if (canInitialize)
 				{
 					this.Homeport.UpdateAdmiral((await basic).Data);
-					this.Homeport.UpdateSlotItems((await sitem).Data);
+					this.Homeport.Itemyard.Update((await sitem).Data);
 					this.Homeport.Dockyard.Update((await kdock).Data);
 				}
 

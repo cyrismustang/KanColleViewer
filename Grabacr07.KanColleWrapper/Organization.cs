@@ -88,6 +88,7 @@ namespace Grabacr07.KanColleWrapper
 			proxy.api_req_kaisou_powerup.TryParse<kcsapi_powerup>().Subscribe(this.Powerup);
 			proxy.api_req_kousyou_getship.TryParse<kcsapi_kdock_getship>().Subscribe(x => this.GetShip(x.Data));
 			proxy.api_req_kousyou_destroyship.TryParse<kcsapi_destroyship>().Subscribe(this.DestoryShip);
+			proxy.api_req_member_updatedeckname.TryParse().Subscribe(this.UpdateFleetName);
 		}
 
 
@@ -225,11 +226,18 @@ namespace Grabacr07.KanColleWrapper
 					.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
 					.Select(int.Parse)
 					.Where(x => this.Ships.ContainsKey(x))
-					.Select(x => this.Ships[x]);
+					.Select(x => this.Ships[x])
+					.ToArray();
 
 				// (改修に使った艦娘のこと item って呼ぶのどうなの…)
 
-				this.Ships = new MemberTable<Ship>(this.Ships.Select(kvp => kvp.Value).Except(items));
+				foreach (var x in items)
+				{
+					this.homeport.Itemyard.RemoveFromShip(x);
+					this.Ships.Remove(x);
+				}
+
+				this.RaiseShipsChanged();
 				this.Update(svd.Data.api_deck);
 			}
 			catch (Exception ex)
@@ -240,7 +248,10 @@ namespace Grabacr07.KanColleWrapper
 
 		private void GetShip(kcsapi_kdock_getship source)
 		{
-			this.Ships = new MemberTable<Ship>(this.Ships.Select(kvp => kvp.Value).Concat(new[] { new Ship(this.homeport, source.api_ship) }));
+			this.homeport.Itemyard.AddFromDock(source);
+
+			this.Ships.Add(new Ship(this.homeport, source.api_ship));
+			this.RaiseShipsChanged();
 		}
 
 		private void DestoryShip(SvData<kcsapi_destroyship> svd)
@@ -250,13 +261,40 @@ namespace Grabacr07.KanColleWrapper
 				var ship = this.Ships[int.Parse(svd.Request["api_ship_id"])];
 				if (ship != null)
 				{
-					this.Ships = new MemberTable<Ship>(this.Ships.Select(kvp => kvp.Value).Except(new[] { ship }));
+					this.homeport.Itemyard.RemoveFromShip(ship);
+
+					this.Ships.Remove(ship);
+					this.RaiseShipsChanged();
 				}
 			}
 			catch (Exception ex)
 			{
 				System.Diagnostics.Debug.WriteLine("解体による更新に失敗しました: {0}", ex);
 			}
+		}
+
+
+		private void UpdateFleetName(SvData data)
+		{
+			if (data == null || !data.IsSuccess) return;
+
+			try
+			{
+				var fleet = this.Fleets[int.Parse(data.Request["api_deck_id"])];
+				var name = data.Request["api_name"];
+
+				fleet.Name = name;
+			}
+			catch (Exception ex)
+			{
+				System.Diagnostics.Debug.WriteLine("艦隊名の変更に失敗しました: {0}", ex);
+			}
+		}
+
+
+		private void RaiseShipsChanged()
+		{
+			this.RaisePropertyChanged("Ships");
 		}
 	}
 }

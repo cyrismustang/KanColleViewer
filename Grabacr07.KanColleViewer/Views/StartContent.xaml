@@ -325,12 +325,12 @@
 								<LineBreak />
 								<Run Text="Project home:" />
 								<metro2:HyperlinkEx Uri="http://grabacr.net/kancolleviewer">
-									<Run Text="http://grabacr.net/kancolleviewer" />
+									<Run Text="grabacr.net" />
 								</metro2:HyperlinkEx>
 								<LineBreak />
-								<Run Text="English Project:" />
-								<metro2:HyperlinkEx Uri="https://github.com/Zharay/KanColleViewer">
-									<Run Text="https://github.com/Zharay/KanColleViewer" />
+								<Run Text="English Project (continued):" />
+								<metro2:HyperlinkEx Uri="https://github.com/Yuubari/KanColleViewer">
+									<Run Text="Yuubari's fork" />
 								</metro2:HyperlinkEx>
 							</Paragraph>
 						</FlowDocument>

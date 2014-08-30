@@ -22,7 +22,6 @@
 		"/kcsapi/api_get_member/kdock",
 		"/kcsapi/api_get_member/material",
 		"/kcsapi/api_get_member/questlist",
-		"/kcsapi/api_req_sortie/battleresult",
 		"/kcsapi/api_req_hensei/change",
 		"/kcsapi/api_req_kousyou/getship",
 		"/kcsapi/api_req_kousyou/createitem",
@@ -34,6 +33,10 @@
 		"/kcsapi/api_req_nyukyo/speedchange",
 		"/kcsapi/api_req_hokyu/charge",
 		"/kcsapi/api_req_kaisou/powerup",
+		"/kcsapi/api_req_member/updatedeckname",
+		"/kcsapi/api_req_member/updatecomment",
+		"/kcsapi/api_req_sortie/battle",
+		"/kcsapi/api_req_sortie/battleresult",
 	};
 #>
 // 
@@ -78,19 +81,3 @@ namespace Grabacr07.KanColleWrapper
 		// ReSharper restore InconsistentNaming
 	}
 }
-
-<#+
-	private class Node
-	{
-		public string Name { get; private set; }
-		public List<string> Methods { get; private set; }
-		public List<Node> Children { get; private set; }
-
-		public Node(string name)
-		{
-			this.Name = name;
-			this.Methods = new List<string>();
-			this.Children = new List<Node>();
-		}
-	}
-#>
